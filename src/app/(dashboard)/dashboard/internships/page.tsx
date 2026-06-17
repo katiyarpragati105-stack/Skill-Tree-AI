@@ -5,7 +5,7 @@ import { useAuth } from '@/contexts/AuthContext'
 import { motion, AnimatePresence } from 'framer-motion'
 import { createClient } from '@/lib/supabase/client'
 import { Internship } from '@/types/database'
-import { Briefcase, Plus, ExternalLink, Calendar, MapPin, Building2, X, Edit3, Trash2, Search, Filter } from 'lucide-react'
+import { Briefcase, Plus, ExternalLink, Calendar, MapPin, Building2, X, CreditCard as Edit3, Trash2, Search, ListFilter as Filter } from 'lucide-react'
 import { format } from 'date-fns'
 
 const statusColors = {

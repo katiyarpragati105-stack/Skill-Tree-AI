@@ -5,7 +5,7 @@ import { useAuth } from '@/contexts/AuthContext'
 import { motion } from 'framer-motion'
 import { createClient } from '@/lib/supabase/client'
 import { Skill, UserSkill } from '@/types/database'
-import { Lock, CheckCircle, PlayCircle, Code, Database, Server, Cpu, GitBranch, Network, Layers, Binary } from 'lucide-react'
+import { Lock, CircleCheck as CheckCircle, CirclePlay as PlayCircle, Code, Database, Server, Cpu, GitBranch, Network, Layers, Binary } from 'lucide-react'
 
 const categoryIcons: Record<string, React.ElementType> = {
   'Programming': Code,

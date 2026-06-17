@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { FileText, Download, Sparkles, Plus, Trash2, Edit3, Eye, CheckCircle, AlertTriangle } from 'lucide-react'
+import { FileText, Download, Sparkles, Plus, Trash2, CreditCard as Edit3, Eye, CircleCheck as CheckCircle, TriangleAlert as AlertTriangle } from 'lucide-react'
 
 interface ResumeSection {
   id: string

@@ -4,7 +4,7 @@ import { useState } from 'react'
 import { useAuth } from '@/contexts/AuthContext'
 import { motion } from 'framer-motion'
 import { createClient } from '@/lib/supabase/client'
-import { Settings, User, Bell, Palette, Shield, HelpCircle, Moon, Sun, Monitor, Check } from 'lucide-react'
+import { Settings, User, Bell, Palette, Shield, Circle as HelpCircle, Moon, Sun, Monitor, Check } from 'lucide-react'
 
 export default function SettingsPage() {
   const { profile, user, refreshProfile } = useAuth()

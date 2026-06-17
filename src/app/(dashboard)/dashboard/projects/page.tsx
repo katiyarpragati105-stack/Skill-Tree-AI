@@ -5,7 +5,7 @@ import { useAuth } from '@/contexts/AuthContext'
 import { motion, AnimatePresence } from 'framer-motion'
 import { createClient } from '@/lib/supabase/client'
 import { Project } from '@/types/database'
-import { FolderKanban, Plus, Sparkles, ExternalLink, Clock, CheckCircle, Pause, Lightbulb, X, Code, Trash2 } from 'lucide-react'
+import { FolderKanban, Plus, Sparkles, ExternalLink, Clock, CircleCheck as CheckCircle, Pause, Lightbulb, X, Code, Trash2 } from 'lucide-react'
 
 const statusConfig = {
   idea: { color: 'bg-slate-500/20 text-slate-400 border-slate-500/30', icon: Lightbulb },

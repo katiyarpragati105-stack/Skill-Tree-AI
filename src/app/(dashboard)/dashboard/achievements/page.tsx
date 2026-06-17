@@ -5,7 +5,7 @@ import { useAuth } from '@/contexts/AuthContext'
 import { motion } from 'framer-motion'
 import { createClient } from '@/lib/supabase/client'
 import { Achievement, UserAchievement } from '@/types/database'
-import { Trophy, Zap, Flame, Star, Sunrise, Moon, Compass, Award, FileText, MessageSquare, Lock, Unlock } from 'lucide-react'
+import { Trophy, Zap, Flame, Star, Sunrise, Moon, Compass, Award, FileText, MessageSquare, Lock, Clock as Unlock } from 'lucide-react'
 
 const iconMap: Record<string, React.ElementType> = {
   'user-check': Award,

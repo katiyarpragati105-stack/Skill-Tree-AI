@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { useAuth } from '@/contexts/AuthContext'
 import { motion } from 'framer-motion'
 import { createClient } from '@/lib/supabase/client'
-import { Calendar, Clock, CheckCircle, Circle, Sparkles, ChevronRight, BookOpen, Code, Target, RefreshCw } from 'lucide-react'
+import { Calendar, Clock, CircleCheck as CheckCircle, Circle, Sparkles, ChevronRight, BookOpen, Code, Target, RefreshCw } from 'lucide-react'
 import { format, addDays, startOfWeek, endOfWeek } from 'date-fns'
 
 interface Goal {
